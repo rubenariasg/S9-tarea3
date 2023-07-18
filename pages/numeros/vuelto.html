@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/estilos.css" />
+    <title>Vuelto</title>
+  </head>
+  <body>
+    <header>
+      <h1>VUELTO</h1>
+    </header>
+    <main>
+      <section class="container">
+        <form action="">
+          <label for="num">
+            <input
+              type="number"
+              id="cantidad"
+              value=""
+              placeholder="Cantidad"
+            />
+          </label>
+          <label for="">
+            <input type="number" id="precio" placeholder="Precio" />
+          </label>
+          <label for="">
+            <input type="number" id="pago" placeholder="Pago" />
+          </label>
+          <div class="checkbox-container">
+            <input type="checkbox" id="casillaVerificacion" />
+            <label for="casillaVerificacion" class="custom-label">IVA</label>
+          </div>
+          <div class="botonesIva">
+            <button type="button" class="boton2" onClick="numero.vuelto()">
+              Aceptar
+            </button>
+            <button type="reset" class="boton2">Limpiar</button>
+          </div>
+          <div id="resp">Respuesta...</div>
+        </form>
+      </section>
+    </main>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>

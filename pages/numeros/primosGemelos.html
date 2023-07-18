@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primos Gemelos</title>
+    <link rel="stylesheet" href="../../css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PRIMOS GEMELOS</h1>
+    </header>
+    <main>
+      <section class="container">
+        <form action="">
+          <label for="num">
+            <input
+              type="number"
+              id="num1"
+              value=""
+              placeholder="Ingrese Numero 1"
+            />
+          </label>
+          <label for="">
+            <input type="number" id="num2" placeholder="Ingrese Numero 2" />
+          </label>
+          <div class="botones">
+            <button
+              type="button"
+              class="boton2"
+              onClick="numero.primosGemelos()"
+            >
+              Aceptar
+            </button>
+            <button type="reset" class="boton2">Limpiar</button>
+          </div>
+          <div id="resp">Respuesta...</div>
+        </form>
+      </section>
+    </main>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
